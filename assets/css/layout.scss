@@ -1,0 +1,73 @@
+// =====================================|=|Text|=|=====================================
+.c-section-title {
+  color: #141b2c;
+  font-family: "Arial";
+  font-size: 44px;
+  line-height: 68px;
+}
+
+.c-text {
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 28px;
+  color: #3a4451;
+}
+
+.c-white {
+  color: #ffffff;
+}
+// =====================================|=|Text|=|=====================================
+
+// =====================================|=|Custom Button|=|=====================================
+.c-btn {
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 16px 35px;
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.c-btn-white {
+  background-color: #ffffff;
+  color: #141b2c;
+}
+
+.c-btn-blue {
+  background: linear-gradient(270deg, #273f97 0%, #2481de 100%);
+  color: #ffffff;
+}
+// =====================================|=|Custom Button|=|=====================================
+
+// =====================================|=|Navigation|=|=====================================
+.nav {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  z-index: 999999;
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vh 0;
+    .brand {
+      img {
+        height: 5vh;
+      }
+    }
+    .nav-body {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+      font-family: "Arial";
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+}
+
+// =====================================|=|Navigation|=|=====================================
